@@ -4,12 +4,12 @@ function first(){
   .then(data => document.getElementById("w").innerHTML=JSON.stringify(data) )
 }
 function second(){
-  fetch("https://gitlab.com/api/v4/projects/31142659")
+  fetch("https://gitlab.com/api/v4/projects/31145374")
   .then(response => response.json())
   .then(data => document.getElementById("x").innerHTML=JSON.stringify(data) )
 }
 function third(){
-  fetch("https://gitlab.com/api/v4/projects/31142659")
+  fetch("https://gitlab.com/api/v4/projects/31145373")
   .then(response => response.json())
   .then(data => document.getElementById("y").innerHTML=JSON.stringify(data) )
 }
